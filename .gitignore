@@ -1,0 +1,6 @@
+.vscode
+.DS_Store
+mesh
+output*
+build
+meshes

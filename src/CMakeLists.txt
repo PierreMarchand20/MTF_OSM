@@ -1,0 +1,14 @@
+add_executable(Gen_maillage_emboite gen_maillage_emboite.cpp)
+target_link_libraries(Gen_maillage_emboite bemtool)
+
+add_executable(Gen_maillage_non_emboite gen_maillage_non_emboite.cpp)
+target_link_libraries(Gen_maillage_non_emboite bemtool)
+
+add_executable(Mtf_emboite mtf_emboite.cpp)
+target_link_libraries(Mtf_emboite bemtool)
+
+# add_executable(Test_mtf_emboite test_mtf_emboite.cpp)
+# target_link_libraries(Test_mtf_emboite bemtool)
+
+add_executable(Mtf_non_emboite mtf_non_emboite.cpp)
+target_link_libraries(Mtf_non_emboite bemtool)
