@@ -45,7 +45,6 @@ type = args.type
 #############################
 #          Plot             #
 #############################
-plt.style.use('articles')
 marker = itertools.cycle(('s','P','^','v'))
 fig, axes = plt.subplots(1,1,figsize=(args.wsize,args.hsize))
 axes.xaxis.set_major_locator(MaxNLocator(integer=True))

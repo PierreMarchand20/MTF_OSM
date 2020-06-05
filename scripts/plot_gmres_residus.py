@@ -29,7 +29,6 @@ type = args.type
 #############################
 #           plot            #
 #############################
-plt.style.use('articles')
 marker = itertools.cycle(('s','P','^','v'))
 fig, axes = plt.subplots(1,1,figsize=(args.wsize,args.hsize))
 
