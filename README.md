@@ -10,12 +10,12 @@ C++:
 
 1. CMake
 2. Boost
-3. Eigen
 
 Python:
 
 1. scipy
 2. pandas
+3. matplotlib
 
 For some reason, computing the spectrum with scipy did not always work and we used matlab in these cases.
 

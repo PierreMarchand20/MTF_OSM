@@ -10,7 +10,6 @@ FIND_PATH(
   BEMTOOL_INCLUDE_DIR
   NAMES bemtool/tools.hpp
   PATHS
-    ${CMAKE_CURRENT_SOURCE_DIR}/../BemTool
     ${CMAKE_CURRENT_SOURCE_DIR}/external/BemTool
     )
 

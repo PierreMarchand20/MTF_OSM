@@ -36,9 +36,9 @@ find_package(BemTool REQUIRED)
 # Boost package - special functions
 find_package(Boost REQUIRED)
 
-# EIGEN3
-find_package(EIGEN3)
-message("-- Eigen include files found in " "${EIGEN3_INCLUDE_DIR}")
+# # EIGEN3
+# find_package(Eigen)
+# message("-- Eigen include files found in " "${Eigen_INCLUDE_DIRS}")
 
 #=============================================================================#
 #=========================== Libraries =======================================#
