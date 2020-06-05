@@ -1,6 +1,8 @@
 # Boundary integral multi-trace formulations and Optimised Schwarz Methods
 
-This repository contains the code associated with the article [Xavier Claeys and Pierre Marchand. "Boundary integral multi-trace formulations and Optimised Schwarz Methods"](https://hal.inria.fr/hal-01921113/document).
+This repository contains the code associated with:
+
+Xavier Claeys and Pierre Marchand (2020). [_Boundary integral multi-trace formulations and Optimised Schwarz Methods_](https://hal.inria.fr/hal-01921113/document). Computers & Mathematics with Applications, June 2020, Vol. 79, Issue 11, Pages 3241-3256.
 
 ## Dependencies
 
@@ -17,9 +19,10 @@ Python:
 
 For some reason, computing the spectrum with scipy did not always work and we used matlab in these cases.
 
-## Reproductivity
+## Figures
 
 To reproduce the results of the article:
+
 1. Compile the code
    1. `mkdir build & cd build`
    2. `cmake ../`
